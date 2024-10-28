@@ -4,7 +4,10 @@
 
 set -e
 
-# TODO: Default options for ease of use, like `./obench.sh -d`.
+# TODO: Default options for ease of comparison, like `./obench.sh -d`.
+# This should download a few models which will fit in memory on the device
+# under test, and run them each 3 times, and print the average for each model.
+
 echo "How many times to run the benchmark?"
 read benchmark
 
