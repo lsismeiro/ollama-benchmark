@@ -21,6 +21,8 @@ Then run this benchmark script:
 ./obench.sh
 ```
 
+Uninstall Ollama following the [official uninstall instructions](https://github.com/ollama/ollama/blob/main/docs/linux.md#uninstall).
+
 ## Limitations
 
 Currently the script just outputs the data from three runs. There are some TODO's in the script for things I'd like to make nicer someday, for now I just want a quick way to run the same tests on different machines :)
@@ -32,7 +34,7 @@ I may also set something up where I could run the tests against [Open WebUI](htt
 | System | Model | Eval Rate |
 | --- | --- | --- |
 | Raspberry Pi 5 - 8GB | llama3.2:3b | 4.35 Tokens/s |
-| Raspberry Pi 5 - 8GB | llama3.1:8b | TODO |
+| Raspberry Pi 5 - 8GB | llama3.1:8b | 1.86 Tokens/s |
 
 ## Further Reading
 
