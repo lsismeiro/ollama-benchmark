@@ -20,7 +20,7 @@ echo ""
 echo -e "Running benchmark "$benchmark" times using model: "$model
 echo ""
 for run in $(seq 1 $benchmark);
-do echo "Why is the blue sky blue?" | ollama run $model --verbose 2>&1 >/dev/null | grep "eval rate:" ;
+do echo "Why is the blue sky blue?" | ollama run $model --verbose 2>&1 >/dev/null | grep "^eval rate:" ;
 done
 
 # TODO: Average the three results, maybe still display them as they are output.

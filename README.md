@@ -8,11 +8,12 @@ For a quick installation, try:
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 
+> If you're not running Linux, [download Ollama](https://ollama.com/download/mac) from the official site.
+
 Verify you can run `ollama` with a given model:
 
 ```
-export ollama_model="llama3.2:3b"
-ollama run $ollama_model
+ollama run llama3.2:3b
 ```
 
 Then run this benchmark script:
@@ -35,6 +36,9 @@ I may also set something up where I could run the tests against [Open WebUI](htt
 | --- | --- | --- |
 | Raspberry Pi 5 - 8GB | llama3.2:3b | 4.35 Tokens/s |
 | Raspberry Pi 5 - 8GB | llama3.1:8b | 1.86 Tokens/s |
+| M1 Max Mac Studio (10 core - 64GB) | llama3.2:3b | 59.38 Tokens/s |
+| M1 Max Mac Studio (10 core - 64GB) | llama3.1:8b | 45.32 Tokens/s |
+| M1 Max Mac Studio (10 core - 64GB) | llama3.1:70b | 7.25 Tokens/s |
 
 ## Further Reading
 
