@@ -32,17 +32,17 @@ I may also set something up where I could run the tests against [Open WebUI](htt
 
 ## Findings
 
-| System | Model | Eval Rate |
-| --- | --- | --- |
-| Raspberry Pi 5 - 8GB | llama3.2:3b | 4.35 Tokens/s |
-| Raspberry Pi 5 - 8GB | llama3.1:8b | 1.86 Tokens/s |
-| M1 Max Mac Studio (10 core - 64GB) | llama3.2:3b | 59.38 Tokens/s |
-| M1 Max Mac Studio (10 core - 64GB) | llama3.1:8b | 45.32 Tokens/s |
-| M1 Max Mac Studio (10 core - 64GB) | llama3.1:70b | 7.25 Tokens/s |
-| AmpereOne A192-32X (192 core - 512GB) | llama3.2:3b | 23.52 Tokens/s |
-| AmpereOne A192-32X (192 core - 512GB) | llama3.1:8b | 17.47 Tokens/s |
-| AmpereOne A192-32X (192 core - 512GB) | llama3.1:70b | 3.86 Tokens/s |
-| AmpereOne A192-32X (192 core - 512GB) | llama3.1:405b | 0.90 Tokens/s |
+| System | CPU/GPU | Model | Eval Rate |
+| --- | --- | --- | --- |
+| Raspberry Pi 5 - 8GB | CPU | llama3.2:3b | 4.35 Tokens/s |
+| Raspberry Pi 5 - 8GB | CPU | llama3.1:8b | 1.86 Tokens/s |
+| M1 Max Mac Studio (10 core - 64GB) | GPU | llama3.2:3b | 59.38 Tokens/s |
+| M1 Max Mac Studio (10 core - 64GB) | GPU | llama3.1:8b | 45.32 Tokens/s |
+| M1 Max Mac Studio (10 core - 64GB) | GPU | llama3.1:70b | 7.25 Tokens/s |
+| AmpereOne A192-32X (192 core - 512GB) | CPU | llama3.2:3b | 23.52 Tokens/s |
+| AmpereOne A192-32X (192 core - 512GB) | CPU | llama3.1:8b | 17.47 Tokens/s |
+| AmpereOne A192-32X (192 core - 512GB) | CPU | llama3.1:70b | 3.86 Tokens/s |
+| AmpereOne A192-32X (192 core - 512GB) | CPU | llama3.1:405b | 0.90 Tokens/s |
 
 ## Further Reading
 
