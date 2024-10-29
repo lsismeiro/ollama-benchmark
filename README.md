@@ -39,6 +39,10 @@ I may also set something up where I could run the tests against [Open WebUI](htt
 | M1 Max Mac Studio (10 core - 64GB) | llama3.2:3b | 59.38 Tokens/s |
 | M1 Max Mac Studio (10 core - 64GB) | llama3.1:8b | 45.32 Tokens/s |
 | M1 Max Mac Studio (10 core - 64GB) | llama3.1:70b | 7.25 Tokens/s |
+| AmpereOne A192-32X (192 core - 512GB) | llama3.2:3b | TODO Tokens/s |
+| AmpereOne A192-32X (192 core - 512GB) | llama3.1:8b | TODO Tokens/s |
+| AmpereOne A192-32X (192 core - 512GB) | llama3.1:70b | TODO Tokens/s |
+| AmpereOne A192-32X (192 core - 512GB) | llama3.1:405b | TODO Tokens/s |
 
 ## Further Reading
 
