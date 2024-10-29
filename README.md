@@ -33,7 +33,7 @@ I may also set something up where I could run the tests against [Open WebUI](htt
 ## Findings
 
 | System | CPU/GPU | Model | Eval Rate |
-| --- | --- | --- | --- |
+| :--- | :--- | :--- | :--- |
 | Raspberry Pi 5 - 8GB | CPU | llama3.2:3b | 4.35 Tokens/s |
 | Raspberry Pi 5 - 8GB | CPU | llama3.1:8b | 1.86 Tokens/s |
 | M1 Max Mac Studio (10 core - 64GB) | GPU | llama3.2:3b | 59.38 Tokens/s |
