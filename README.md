@@ -39,6 +39,8 @@ I may also set something up where I could run the tests against [Open WebUI](htt
 | M1 Max Mac Studio (10 core - 64GB) | GPU | llama3.2:3b | 59.38 Tokens/s |
 | M1 Max Mac Studio (10 core - 64GB) | GPU | llama3.1:8b | 45.32 Tokens/s |
 | M1 Max Mac Studio (10 core - 64GB) | GPU | llama3.1:70b | 7.25 Tokens/s |
+| M4 Mac mini (10 core - 32GB) | GPU | llama3.2:3b | 38.23 Tokens/s |
+| M4 Mac mini (10 core - 32GB) | GPU | llama3.1:8b | 19.27 Tokens/s |
 | Ryzen 9 7900X (Nvidia 4090) | GPU | llama3.2:3b | 237.05 Tokens/s |
 | Ryzen 9 7900X (Nvidia 4090) | GPU | llama3.1:8b | 148.09 Tokens/s |
 | Ryzen 9 7900X (Nvidia 4090) | GPU/CPU | llama3.1:70b | 3.10 Tokens/s |
