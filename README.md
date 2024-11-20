@@ -46,8 +46,9 @@ I may also set something up where I could run the tests against [Open WebUI](htt
 | Pi 5 - 8GB / AMD Radeon Pro W7700 16GB | GPU | llama3.2:3b | 56.14 Tokens/s | 145 W |
 | Pi 5 - 8GB / AMD Radeon Pro W7700 16GB | GPU | llama3.1:8b | 39.87 Tokens/s | 52 W |
 | Pi 5 - 8GB / AMD Radeon Pro W7700 16GB | GPU | llama2:13b | 4.38 Tokens/s | 108 W |
-| M4 Mac mini (10 core - 32GB) | GPU | llama3.2:3b | 38.23 Tokens/s | N/A |
-| M4 Mac mini (10 core - 32GB) | GPU | llama3.1:8b | 19.27 Tokens/s | N/A |
+| M4 Mac mini 10 core / 32GB | GPU | llama3.2:3b | 41.31 Tokens/s | 30.1 W |
+| M4 Mac mini 10 core / 32GB | GPU | llama3.1:8b | 20.95 Tokens/s | 29.4 W |
+| M4 Mac mini 10 core / 32GB | GPU | llama2:13b | 13.60 Tokens/s | 29.8 W |
 | M1 Max Mac Studio (10 core - 64GB) | GPU | llama3.2:3b | 59.38 Tokens/s | N/A |
 | M1 Max Mac Studio (10 core - 64GB) | GPU | llama3.1:8b | 45.32 Tokens/s | N/A |
 | M1 Max Mac Studio (10 core - 64GB) | GPU | llama2:13b | 32.85 Tokens/s | N/A |
