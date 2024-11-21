@@ -43,6 +43,9 @@ I may also set something up where I could run the tests against [Open WebUI](htt
 | Pi 5 - 8GB / AMD RX 6700 XT 12GB | GPU | llama3.2:3b | 49.01 Tokens/s | 94 W |
 | Pi 5 - 8GB / AMD RX 6700 XT 12GB | GPU | llama3.1:8b | 39.70 Tokens/s | 135 W |
 | Pi 5 - 8GB / AMD RX 6700 XT 12GB | GPU | llama2:13b | 3.98 Tokens/s | 95 W |
+| Pi 5 - 8GB / AMD RX 7600 8GB | GPU | llama3.2:3b | 48.47 Tokens/s | 156 W |
+| Pi 5 - 8GB / AMD RX 7600 8GB | GPU | llama3.1:8b | 32.60 Tokens/s | 174 W |
+| Pi 5 - 8GB / AMD RX 7600 8GB | GPU | llama2:13b | 2.42 Tokens/s | 106 W |
 | Pi 5 - 8GB / AMD Radeon Pro W7700 16GB | GPU | llama3.2:3b | 56.14 Tokens/s | 145 W |
 | Pi 5 - 8GB / AMD Radeon Pro W7700 16GB | GPU | llama3.1:8b | 39.87 Tokens/s | 52 W |
 | Pi 5 - 8GB / AMD Radeon Pro W7700 16GB | GPU | llama2:13b | 4.38 Tokens/s | 108 W |
