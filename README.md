@@ -34,6 +34,7 @@ I may also set something up where I could run the tests against [Open WebUI](htt
 
 | System | CPU/GPU | Model | Eval Rate | Power (Peak) |
 | :--- | :--- | :--- | :--- | :--- |
+| Pi 400 - 4GB | CPU | llama3.2:3b | 1.60 Tokens/s | 6 W |
 | Pi 5 - 8GB | CPU | llama3.2:3b | 4.61 Tokens/s | 13.9 W |
 | Pi 5 - 8GB | CPU | llama3.1:8b | 1.99 Tokens/s | 13.2 W |
 | Pi 5 - 8GB | CPU | llama2:13b | DNF | DNF |
