@@ -60,10 +60,21 @@ I may also set something up where I could run the tests against [Open WebUI](htt
 | Ryzen 9 7900X (Nvidia 4090) | GPU | llama3.2:3b | 237.05 Tokens/s | N/A |
 | Ryzen 9 7900X (Nvidia 4090) | GPU | llama3.1:8b | 148.09 Tokens/s | N/A |
 | Ryzen 9 7900X (Nvidia 4090) | GPU/CPU | llama3.1:70b | 3.10 Tokens/s | N/A |
+| System76 Thelio Astra (Nvidia A400) | GPU | llama3.2:3b | 35.51 Tokens/s | 167 W |
+| System76 Thelio Astra (Nvidia A400) | CPU/GPU | llama3.1:8b | 2.79 Tokens/s | 190 W |
+| System76 Thelio Astra (Nvidia A400) | CPU/GPU | llama2:13b | 7.93 Tokens/s | 223 W |
+| System76 Thelio Astra (Nvidia A4000) | GPU | llama3.2:3b | 90.92 Tokens/s | 244 W |
+| System76 Thelio Astra (Nvidia A4000) | GPU | llama3.1:8b | 59.11 Tokens/s | 250 W |
+| System76 Thelio Astra (Nvidia A4000) | GPU | llama2:13b | 44.00 Tokens/s | 254 W |
+| System76 Thelio Astra (AMD Pro W7700<sup>1</sup>) | GPU | llama3.2:3b | 89.31 Tokens/s | 261 W |
+| System76 Thelio Astra (AMD Pro W7700<sup>1</sup>) | GPU | llama3.1:8b | 56.92 Tokens/s | 278 W |
+| System76 Thelio Astra (AMD Pro W7700<sup>1</sup>) | CPU/GPU | llama2:13b | 8.41 Tokens/s | 187 W |
 | AmpereOne A192-32X (192 core - 512GB) | CPU | llama3.2:3b | 23.52 Tokens/s | N/A |
 | AmpereOne A192-32X (192 core - 512GB) | CPU | llama3.1:8b | 17.47 Tokens/s | N/A |
 | AmpereOne A192-32X (192 core - 512GB) | CPU | llama3.1:70b | 3.86 Tokens/s | N/A |
 | AmpereOne A192-32X (192 core - 512GB) | CPU | llama3.1:405b | 0.90 Tokens/s | N/A |
+
+<sup>1</sup> These GPUs were tested using `llama.cpp` with Vulkan support.
 
 ## Further Reading
 
