@@ -53,6 +53,15 @@ while [[ $# -gt 0 ]]; do
     esac
 done
 
+if [ -z "$ollama_bin" ]; then
+    ollama_bin="ollama"
+fi
+
+if ! command -v "$ollama_bin" &> /dev/null; then
+    echo "Error: $ollama_bin could not be found. Please check the path or install it."
+    exit 1
+fi
+
 # Original comment about defaults mentions running multiple models that fit
 # into memory, but for simplicity and ease of replication I just picked one.
 if [ "$default_flag" = true ]; then
