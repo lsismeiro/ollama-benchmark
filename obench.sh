@@ -57,8 +57,9 @@ if [ -z "$ollama_bin" ]; then
     ollama_bin="ollama"
 fi
 
-if ! command -v "$ollama_bin" &> /dev/null; then
-    echo "Error: $ollama_bin could not be found. Please check the path or install it."
+base_cmd=$(echo "$ollama_bin" | awk '{print $1}')
+if ! command -v "$base_cmd" &> /dev/null; then
+    echo "Error: $base_cmd could not be found. Please check the path or install it."
     exit 1
 fi
 
