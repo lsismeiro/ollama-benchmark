@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Benchmark using ollama gives rate of tokens per second
 # idea taken from https://taoofmac.com/space/blog/2024/01/20/1800
 
