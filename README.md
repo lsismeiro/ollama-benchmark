@@ -1,5 +1,7 @@
 # ollama-benchmark
 
+[![.github/workflows/shellcheck.yaml](https://github.com/geerlingguy/ollama-benchmark/actions/workflows/shellcheck.yaml/badge.svg)](https://github.com/geerlingguy/ollama-benchmark/actions/workflows/shellcheck.yaml)
+
 This bash script benchmarks ollama on any system where it is installed.
 
 For a quick installation, try:
