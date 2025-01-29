@@ -34,6 +34,16 @@ I may also set something up where I could run the tests against [Open WebUI](htt
 
 ## Findings
 
+### DeepSeek
+
+| System | CPU/GPU | Model | Eval Rate | Power (Peak) |
+| :--- | :--- | :--- | :--- | :--- |
+| Pi 5 - 16GB | CPU | deepseek-r1:14b | 1.20 Tokens/s | 13.0 W |
+| Pi 5 - 16GB / AMD Radeon Pro W7700 16GB | GPU | deepseek-r1:14b | 19.90 Tokens/s | 164 W |
+| AmpereOne A192-32X - 512GB | CPU | deepseek-r1:671b | 4.18 Tokens/s | 477 W |
+
+### Llama
+
 | System | CPU/GPU | Model | Eval Rate | Power (Peak) |
 | :--- | :--- | :--- | :--- | :--- |
 | Pi 400 - 4GB | CPU | llama3.2:3b | 1.60 Tokens/s | 6 W |
