@@ -72,7 +72,7 @@ fi
 
 if [ -z "$benchmark" ]; then
     echo "How many times to run the benchmark?"
-    read benchmark
+    read -r benchmark
 fi
 
 if [ -z "$model" ]; then
@@ -82,7 +82,7 @@ if [ -z "$model" ]; then
     echo ""
     echo "Enter model you'd like to run (e.g. llama3.2)"
     echo ""
-    read model
+    read -r model
 fi
 
 echo -e "Running benchmark $benchmark times using model: $model"
