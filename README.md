@@ -101,10 +101,10 @@ Options:
 | System76 Thelio Astra (AMD Pro W7700<sup>1</sup>) | GPU | llama3.2:3b | 89.31 Tokens/s | 261 W |
 | System76 Thelio Astra (AMD Pro W7700<sup>1</sup>) | GPU | llama3.1:8b | 56.92 Tokens/s | 278 W |
 | System76 Thelio Astra (AMD Pro W7700<sup>1</sup>) | CPU/GPU | llama2:13b | 8.41 Tokens/s | 187 W |
-| AmpereOne A192-32X (192 core - 512GB) | CPU | llama3.2:3b | 23.52 Tokens/s | N/A |
-| AmpereOne A192-32X (192 core - 512GB) | CPU | llama3.1:8b | 17.47 Tokens/s | N/A |
-| AmpereOne A192-32X (192 core - 512GB) | CPU | llama3.1:70b | 3.86 Tokens/s | N/A |
-| AmpereOne A192-32X (192 core - 512GB) | CPU | llama3.1:405b | 0.90 Tokens/s | N/A |
+| AmpereOne A192-32X (512GB) | CPU | llama3.2:3b | 23.52 Tokens/s | N/A |
+| AmpereOne A192-32X (512GB) | CPU | llama3.1:8b | 17.47 Tokens/s | N/A |
+| AmpereOne A192-32X (512GB) | CPU | llama3.1:70b | 3.86 Tokens/s | N/A |
+| AmpereOne A192-32X (512GB) | CPU | llama3.1:405b | 0.90 Tokens/s | N/A |
 
 <sup>1</sup> These GPUs were tested using `llama.cpp` with Vulkan support.
 
