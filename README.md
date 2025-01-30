@@ -41,6 +41,8 @@ I may also set something up where I could run the tests against [Open WebUI](htt
 | Pi 5 - 16GB | CPU | deepseek-r1:14b | 1.20 Tokens/s | 13.0 W |
 | Pi 5 - 16GB / AMD Radeon Pro W7700 16GB | GPU | deepseek-r1:14b | 19.90 Tokens/s | 164 W |
 | AmpereOne A192-32X - 512GB | CPU | deepseek-r1:671b | 4.18 Tokens/s | 477 W |
+| M1 Ultra (48 GPU Core) 64GB | GPU | deepseek-r1:1.5b | 126.21 Tokens/s | N/A |
+| M1 Ultra (48 GPU Core) 64GB | GPU | deepseek-r1:14b | 35.89 Tokens/s | N/A |
 
 ### Llama
 
@@ -72,9 +74,17 @@ I may also set something up where I could run the tests against [Open WebUI](htt
 | M1 Max Mac Studio (10 core - 64GB) | GPU | llama3.1:8b | 45.32 Tokens/s | N/A |
 | M1 Max Mac Studio (10 core - 64GB) | GPU | llama2:13b | 32.85 Tokens/s | N/A |
 | M1 Max Mac Studio (10 core - 64GB) | GPU | llama3.1:70b | 7.25 Tokens/s | N/A |
+| M1 Ultra (48 GPU Core) 64GB | GPU | llama3.2:3b | 108.67 Tokens/s | N/A |
+| M1 Ultra (48 GPU Core) 64GB | GPU | llama3.1:8b | 62.28 Tokens/s | N/A |
 | Ryzen 9 7900X (Nvidia 4090) | GPU | llama3.2:3b | 237.05 Tokens/s | N/A |
 | Ryzen 9 7900X (Nvidia 4090) | GPU | llama3.1:8b | 148.09 Tokens/s | N/A |
 | Ryzen 9 7900X (Nvidia 4090) | GPU/CPU | llama3.1:70b | 3.10 Tokens/s | N/A |
+| Intel 13900K (Nvidia 4090) | GPU | llama3.2:3b | 216.48 Tokens/s | N/A |
+| Intel 13900K (Nvidia 4090) | GPU | llama3.1:8b | 136.55 Tokens/s | N/A |
+| Ryzen 9 9950X (AMD 7900 XT) | GPU | llama3.2:3b | 131.2 Tokens/s | N/A |
+| Ryzen 9 7950X (Nvidia 4080) | GPU | llama3.2:3b | 204.45 Tokens/s | N/A |
+| Ryzen 9 7950X (Nvidia 4070 Ti Super) | GPU | llama3.2:3b | 198.95 Tokens/s | N/A |
+| Ryzen 9 5950X (Nvidia 4070) | GPU | llama3.2:3b | 160.72 Tokens/s | N/A |
 | System76 Thelio Astra (Nvidia A400) | GPU | llama3.2:3b | 35.51 Tokens/s | 167 W |
 | System76 Thelio Astra (Nvidia A400) | CPU/GPU | llama3.1:8b | 2.79 Tokens/s | 190 W |
 | System76 Thelio Astra (Nvidia A400) | CPU/GPU | llama2:13b | 7.93 Tokens/s | 223 W |
