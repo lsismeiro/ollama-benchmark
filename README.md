@@ -26,11 +26,18 @@ Then run this benchmark script:
 
 Uninstall Ollama following the [official uninstall instructions](https://github.com/ollama/ollama/blob/main/docs/linux.md#uninstall).
 
-## Limitations
+## CLI Options
 
-Currently the script just outputs the data from three runs. There are some TODO's in the script for things I'd like to make nicer someday, for now I just want a quick way to run the same tests on different machines :)
-
-I may also set something up where I could run the tests against [Open WebUI](https://docs.openwebui.com) so it could also do an end-to-end test of how well a host would perform hosting a chatbot UI for multiple users. Probably not. But maybe.
+```
+Usage: ./obench.sh [OPTIONS]
+Options:
+ -h, --help      Display this help message
+ -d, --default   Run a benchmark using some default small models
+ -m, --model     Specify a model to use
+ -c, --count     Number of times to run the benchmark
+ --ollama-bin    Point to ollama executable or command (e.g if using Docker)
+ --markdown      Format output as markdown
+```
 
 ## Findings
 
@@ -39,7 +46,7 @@ I may also set something up where I could run the tests against [Open WebUI](htt
 | System | CPU/GPU | Model | Eval Rate | Power (Peak) |
 | :--- | :--- | :--- | :--- | :--- |
 | Pi 5 - 16GB | CPU | deepseek-r1:14b | 1.20 Tokens/s | 13.0 W |
-| Pi 5 - 16GB / AMD Radeon Pro W7700 16GB | GPU | deepseek-r1:14b | 19.90 Tokens/s | 164 W |
+| Pi 5 - 16GB (AMD Pro W7700<sup>1</sup>) | GPU | deepseek-r1:14b | 19.90 Tokens/s | 164 W |
 | AmpereOne A192-32X - 512GB | CPU | deepseek-r1:671b | 4.18 Tokens/s | 477 W |
 | M1 Ultra (48 GPU Core) 64GB | GPU | deepseek-r1:1.5b | 126.21 Tokens/s | N/A |
 | M1 Ultra (48 GPU Core) 64GB | GPU | deepseek-r1:14b | 35.89 Tokens/s | N/A |
@@ -55,21 +62,21 @@ I may also set something up where I could run the tests against [Open WebUI](htt
 | Pi 5 - 16GB | CPU | llama3.2:3b | 4.88 Tokens/s | 11.9 W |
 | Pi 5 - 16GB | CPU | llama3.1:8b | 2.17 Tokens/s | 11.6 W |
 | Pi 5 - 16GB | CPU | llama2:13b | 1.36 Tokens/s | 10.9 W |
-| Pi 5 - 8GB / AMD RX 6500 XT 8GB | GPU | llama3.2:3b | 39.82 Tokens/s | 88 W |
-| Pi 5 - 8GB / AMD RX 6500 XT 8GB | GPU | llama3.1:8b | 22.42 Tokens/s | 95.7 W |
-| Pi 5 - 8GB / AMD RX 6500 XT 8GB | GPU | llama2:13b | 2.03 Tokens/s | 48.3 W |
-| Pi 5 - 8GB / AMD RX 6700 XT 12GB | GPU | llama3.2:3b | 49.01 Tokens/s | 94 W |
-| Pi 5 - 8GB / AMD RX 6700 XT 12GB | GPU | llama3.1:8b | 39.70 Tokens/s | 135 W |
-| Pi 5 - 8GB / AMD RX 6700 XT 12GB | GPU | llama2:13b | 3.98 Tokens/s | 95 W |
-| Pi 5 - 8GB / AMD RX 7600 8GB | GPU | llama3.2:3b | 48.47 Tokens/s | 156 W |
-| Pi 5 - 8GB / AMD RX 7600 8GB | GPU | llama3.1:8b | 32.60 Tokens/s | 174 W |
-| Pi 5 - 8GB / AMD RX 7600 8GB | GPU | llama2:13b | 2.42 Tokens/s | 106 W |
-| Pi 5 - 8GB / AMD Radeon Pro W7700 16GB | GPU | llama3.2:3b | 56.14 Tokens/s | 145 W |
-| Pi 5 - 8GB / AMD Radeon Pro W7700 16GB | GPU | llama3.1:8b | 39.87 Tokens/s | 52 W |
-| Pi 5 - 8GB / AMD Radeon Pro W7700 16GB | GPU | llama2:13b | 4.38 Tokens/s | 108 W |
-| M4 Mac mini 10 core / 32GB | GPU | llama3.2:3b | 41.31 Tokens/s | 30.1 W |
-| M4 Mac mini 10 core / 32GB | GPU | llama3.1:8b | 20.95 Tokens/s | 29.4 W |
-| M4 Mac mini 10 core / 32GB | GPU | llama2:13b | 13.60 Tokens/s | 29.8 W |
+| Pi 5 - 8GB (AMD RX 6500 XT<sup>1</sup>) | GPU | llama3.2:3b | 39.82 Tokens/s | 88 W |
+| Pi 5 - 8GB (AMD RX 6500 XT<sup>1</sup>) | GPU | llama3.1:8b | 22.42 Tokens/s | 95.7 W |
+| Pi 5 - 8GB (AMD RX 6500 XT<sup>1</sup>) 8GB | GPU | llama2:13b | 2.03 Tokens/s | 48.3 W |
+| Pi 5 - 8GB (AMD RX 6700 XT<sup>1</sup>) 12GB | GPU | llama3.2:3b | 49.01 Tokens/s | 94 W |
+| Pi 5 - 8GB (AMD RX 6700 XT<sup>1</sup>) 12GB | GPU | llama3.1:8b | 39.70 Tokens/s | 135 W |
+| Pi 5 - 8GB (AMD RX 6700 XT<sup>1</sup>) 12GB | GPU | llama2:13b | 3.98 Tokens/s | 95 W |
+| Pi 5 - 8GB (AMD RX 7600<sup>1</sup>) | GPU | llama3.2:3b | 48.47 Tokens/s | 156 W |
+| Pi 5 - 8GB (AMD RX 7600<sup>1</sup>) | GPU | llama3.1:8b | 32.60 Tokens/s | 174 W |
+| Pi 5 - 8GB (AMD RX 7600<sup>1</sup>) | GPU | llama2:13b | 2.42 Tokens/s | 106 W |
+| Pi 5 - 8GB (AMD Pro W7700<sup>1</sup>) | GPU | llama3.2:3b | 56.14 Tokens/s | 145 W |
+| Pi 5 - 8GB (AMD Pro W7700<sup>1</sup>) | GPU | llama3.1:8b | 39.87 Tokens/s | 52 W |
+| Pi 5 - 8GB (AMD Pro W7700<sup>1</sup>) | GPU | llama2:13b | 4.38 Tokens/s | 108 W |
+| M4 Mac mini (10 core - 32GB) | GPU | llama3.2:3b | 41.31 Tokens/s | 30.1 W |
+| M4 Mac mini (10 core - 32GB) | GPU | llama3.1:8b | 20.95 Tokens/s | 29.4 W |
+| M4 Mac mini (10 core - 32GB) | GPU | llama2:13b | 13.60 Tokens/s | 29.8 W |
 | M1 Max Mac Studio (10 core - 64GB) | GPU | llama3.2:3b | 59.38 Tokens/s | N/A |
 | M1 Max Mac Studio (10 core - 64GB) | GPU | llama3.1:8b | 45.32 Tokens/s | N/A |
 | M1 Max Mac Studio (10 core - 64GB) | GPU | llama2:13b | 32.85 Tokens/s | N/A |
