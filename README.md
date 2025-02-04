@@ -47,9 +47,9 @@ Options:
 | :--- | :--- | :--- | :--- | :--- |
 | Pi 5 - 16GB | CPU | deepseek-r1:14b | 1.20 Tokens/s | 13.0 W |
 | Pi 5 - 16GB (AMD Pro W7700<sup>1</sup>) | GPU | deepseek-r1:14b | 19.90 Tokens/s | 164 W |
-| GMKtek G3 Plus (Intel N150) - 16GB | CPU | deepseek-r1:1.5b | 17.02 Tokens/s | 25.6 W |
-| GMKtek G3 Plus (Intel N150) - 16GB | CPU | deepseek-r1:8b | 3.55 Tokens/s | 25.6 W |
-| GMKtek G3 Plus (Intel N150) - 16GB | CPU | deepseek-r1:14b | 1.97 Tokens/s | 25.6 W |
+| GMKtek G3 Plus (Intel N150) - 16GB | CPU | deepseek-r1:1.5b | 17.99 Tokens/s | 29.9 W |
+| GMKtek G3 Plus (Intel N150) - 16GB | CPU | deepseek-r1:8b | 3.84 Tokens/s | 29.8 W |
+| GMKtek G3 Plus (Intel N150) - 16GB | CPU | deepseek-r1:14b | 2.13 Tokens/s | 30.3 W |
 | AmpereOne A192-32X - 512GB | CPU | deepseek-r1:671b | 4.18 Tokens/s | 477 W |
 | M1 Ultra (48 GPU Core) 64GB | GPU | deepseek-r1:1.5b | 126.21 Tokens/s | N/A |
 | M1 Ultra (48 GPU Core) 64GB | GPU | deepseek-r1:14b | 35.89 Tokens/s | N/A |
@@ -65,9 +65,9 @@ Options:
 | Pi 5 - 16GB | CPU | llama3.2:3b | 4.88 Tokens/s | 11.9 W |
 | Pi 5 - 16GB | CPU | llama3.1:8b | 2.17 Tokens/s | 11.6 W |
 | Pi 5 - 16GB | CPU | llama2:13b | 1.36 Tokens/s | 10.9 W |
-| GMKtec G3 Plus (Intel N150) - 16GB | CPU | llama3.2:3b | 8.04 Tokens/s | 26.5 W |
-| GMKtec G3 Plus (Intel N150) - 16GB | CPU | llama3.1:8b | 3.59 Tokens/s | 26.5 W |
-| GMKtec G3 Plus (Intel N150) - 16GB | CPU | llama2:13b | 2.16 Tokens/s | 26.5 W |
+| GMKtec G3 Plus (Intel N150) - 16GB | CPU | llama3.2:3b | 9.06 Tokens/s | 26.4 W |
+| GMKtec G3 Plus (Intel N150) - 16GB | CPU | llama3.1:8b | 3.91 Tokens/s | 29.8 W |
+| GMKtec G3 Plus (Intel N150) - 16GB | CPU | llama2:13b | 2.57 Tokens/s | 28.5 W |
 | Pi 5 - 8GB (AMD RX 6500 XT<sup>1</sup>) | GPU | llama3.2:3b | 39.82 Tokens/s | 88 W |
 | Pi 5 - 8GB (AMD RX 6500 XT<sup>1</sup>) | GPU | llama3.1:8b | 22.42 Tokens/s | 95.7 W |
 | Pi 5 - 8GB (AMD RX 6500 XT<sup>1</sup>) 8GB | GPU | llama2:13b | 2.03 Tokens/s | 48.3 W |
