@@ -96,6 +96,8 @@ Options:
 | Ryzen 9 7900X (Nvidia 4090) | GPU | llama3.2:3b | 237.05 Tokens/s | N/A |
 | Ryzen 9 7900X (Nvidia 4090) | GPU | llama3.1:8b | 148.09 Tokens/s | N/A |
 | Ryzen 9 7900X (Nvidia 4090) | GPU/CPU | llama3.1:70b | 3.10 Tokens/s | N/A |
+| Intel 13900K (Nvidia 5090) | GPU | llama3.2:3b | 271.40 Tokens/s | N/A |
+| Intel 13900K (Nvidia 5090) | GPU | llama3.1:8b | 178.73 Tokens/s | N/A |
 | Intel 13900K (Nvidia 4090) | GPU | llama3.2:3b | 216.48 Tokens/s | N/A |
 | Intel 13900K (Nvidia 4090) | GPU | llama3.1:8b | 136.55 Tokens/s | N/A |
 | Ryzen 9 9950X (AMD 7900 XT) | GPU | llama3.2:3b | 131.2 Tokens/s | N/A |
