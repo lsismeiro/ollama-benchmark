@@ -94,7 +94,7 @@ fi
 
 total_eval_rate=0
 for run in $(seq 1 "$benchmark"); do
-    result=$(echo "Why is the blue sky blue?" | $ollama_bin run "$model" --verbose 2>&1 >/dev/null | grep "^eval rate:")
+    result=$($ollama_bin run "$model" --verbose "Why is the blue sky blue?" 2>&1 >/dev/null | grep "^eval rate:")
     # With this we could clean up the non-Markdown results a bit more, but leaving it as is for compatibility.
     eval_rate=$(echo "$result" | awk '{print $3}')
     total_eval_rate=$(echo "$total_eval_rate + $eval_rate" | bc -l)
