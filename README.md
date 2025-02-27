@@ -1,6 +1,8 @@
 # ollama-benchmark
 
-[![.github/workflows/shellcheck.yaml](https://github.com/geerlingguy/ollama-benchmark/actions/workflows/shellcheck.yaml/badge.svg)](https://github.com/geerlingguy/ollama-benchmark/actions/workflows/shellcheck.yaml)
+## Fork notes
+
+**20250227:** this is a fork of the original repo to fix my issue with the report output not being shown with ollama running on docker and the option --ollama-bin. I didn't test running directly yet to confirm it was really the issue since is working for me now.
 
 This bash script benchmarks ollama on any system where it is installed.
 
