@@ -1,8 +1,16 @@
+
+
+#### Fork Notes
+
+**20250227:** This is a fork of the original repo to fix my issue with the report output not being shown with ollama running on docker and the option --ollama-bin. I didn't test running directly yet to confirm it was really the issue since is working for me now.
+
+**20250308:** Confirmed that running ollama directly my problem doesn't happen so I created an if to apply my fix only if using the --ollama-bin, if not it will default to the original code. This was needed for me when running ollama in a docker container.
+
+```
+./obench.sh -m mistral --ollama-bin "docker exec -it ollama ollama"
+```
+
 # ollama-benchmark
-
-## Fork notes
-
-**20250227:** this is a fork of the original repo to fix my issue with the report output not being shown with ollama running on docker and the option --ollama-bin. I didn't test running directly yet to confirm it was really the issue since is working for me now.
 
 This bash script benchmarks ollama on any system where it is installed.
 
